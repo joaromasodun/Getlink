@@ -33,7 +33,7 @@ export default function Policy() {
               </div>
           </div>
           <div className="lock">
-            <img src={lock} alt="lock" className='translate-y-16'/>
+            <img src={lock} alt="lock"/>
           </div>
         </div>
       </div>
