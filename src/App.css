@@ -1,0 +1,18 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #150E28;
+  color: #ffffff
+}
+
+.navbar {
+  border-bottom: 1px solid #ffffff;
+}
+
+.right {
+  background: url('./assets/man-wearing-smart-glasses-touching-virtual-screen.png') center center/cover no-repeat;
+  background-size:cover;
+}
+
+.accordion {
+  border-bottom: 1px solid #D434FE;
+}
