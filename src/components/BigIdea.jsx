@@ -5,7 +5,7 @@ import Button from './Button'
 
 export default function BigIdea() {
   return(
-    <div className='flex flex-col space-y-1 px-8 py-14'>
+    <div className='flex flex-col space-y-1 px-6 py-14'>
       <img src={bigIdea} alt="big idea icon"/>
 
       <div className="text-content py-2">

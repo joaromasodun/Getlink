@@ -2,8 +2,11 @@ import Navbar from './components/Navbar'
 // import Ignite from './components/Ignite'
 import Hero from './components/Hero'
 import BigIdea from './components/BigIdea'
-import Accordion from './components/Accordion'
+import Faq from './components/Faq'
 import Prizes from './components/Prizes'
+import Partners from './components/Partners'
+import Policy from './components/Policy'
+
 
 export default function App() {
   return (
@@ -14,8 +17,10 @@ export default function App() {
         <Hero />
       <div className='max-w-7xl mx-auto'>
         <BigIdea />
-        <Accordion />
+        <Faq />
         <Prizes />
+        <Partners />
+        <Policy />
       </div>
     </>
   )

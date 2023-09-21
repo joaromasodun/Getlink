@@ -16,3 +16,12 @@ body {
 .accordion {
   border-bottom: 1px solid #D434FE;
 }
+
+.partners {
+  border-bottom: 1px solid #ffffff
+}
+
+.lock {
+  background: url('./assets/Vector.png') center center/cover no-repeat;
+  height: 400px;
+}

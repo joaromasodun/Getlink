@@ -8,13 +8,13 @@ export default function AccordionItem({title, answer, current, num, onSetCurrent
   }
 
   return(
-    <div className="accordion py-3" onClick={handleToggle}>
-      <div className="header flex">
+    <div className="accordion" onClick={handleToggle}>
+      <div className="header flex space-x-1 py-2">
         <h2 className="title flex-1">{title}</h2>
         <p className="sign text-secondary text-2xl font-bold">{isShown ? '-' : '+'}</p>
       </div>
       {isShown && 
-        <div className="answer py-5">
+        <div className="answer pb-3">
           {answer}
         </div>
       }
